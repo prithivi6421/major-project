@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("https://images.pexels.com/photos/450052/pexels-photo-450052.jpeg?auto=compress&cs=tinysrgb&w=1600");
+}
+
+body{
+    background-size: 100% 100%;
+}
+
+main{
+    
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row1{
+    flex-direction: column;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+}
+
+.row2{
+    flex-direction: column;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(25,25,25,0.2);
+    border-radius: 10px;
+}
+
+.day_name{
+    font-size: 20px;
+    color: white;
+}
+/* Search box */
+#search{
+    font-size: 20px;   
+    padding: 5px;
+    border-radius:20px; 
+    border: none;
+    outline: none;
+}
+
+.text{
+    font-size: 15px;
+    color: white;
+}
+/* Forcast box  */
+.weatherforecast{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    height: 45vh;
+    border-radius: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(24,24,24,0.4);
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.week{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(25,25,25,0.2);
+    border-radius: 10px;
+}
+/* MOBILE */
+@media (max-width:400px)
+{   
+    body{
+        
+    background-color: #5b9ecb;
+    }
+    #search{
+        margin-top: 5px;
+        font-size: 15px;   
+        padding: 5px;
+        border-radius:20px; 
+        border: none;
+        outline: none;
+    }
+  main{
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+.row1{
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+.row2{
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+.weatherforecast{
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+  }
+}
