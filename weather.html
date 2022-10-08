@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=, initial-scale=1.0">
+   <title>Weather Forecast app</title>
+
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div class="footer" align="center">
+      <span  id="device_location"><h3 id="location_name"style="color: white; font-size:15px;margin-top: 3px;">Delhi</h3></span>
+     
+   </div>
+   <main id="main">
+      <!-- search bar -->
+      <div class="row1">
+         <input type="search" class="search" id="search" placeholder="Enter location">
+         <span  id="device_location"><h3 id="location_name"style="color: black; font-size:15px;margin-top: 3px;"></h3></span>
+      </div>
+      <!-- weather data for current day -->
+      <div class="row2" id="today">
+         <div class="day_name" id="city_name"></div>
+         <div class="text">
+            <h1>00 &#8451 </h1>
+           
+            <span id="windspeed">Windspeed: 3 km/h</span><br>
+            <span id="humidity">Humidity:55%</span><br>
+            <span id="date">Date:02/10/2022</span> <br>
+            <span id="time">12:34 PM</span>
+         </div>
+   </main> 
+   <!-- 7 day forecast -->
+   <div class="weatherforecast" id ='weatherforecast'>
+      <!-- day1 -->
+      <div class="weather-fourcast-item">
+      <div class="week" id="day1">
+         <div class="day_name" id="day">day1</div>
+         <div class="image"><img src="https://cdn-icons-png.flaticon.com/128/1146/1146869.png" height="40px" alt=""></div>
+         <div class="text">
+            <h1 id="tempreture"> 32&#8451</h1>
+           
+         </div>
+        
+      </div>
+      </div>
+      <!-- day2 -->
+      <div class="weather-fourcast-item">
+      <div class="week" id="day2">
+         <div class="day_name">day2</div>
+         <div class="image"><img src="https://cdn-icons-png.flaticon.com/128/831/831268.png" height="40px" alt=""></div>
+         <div class="text">
+            <h1> 32&#8451</h1>
+           
+         </div>
+     
+      </div>
+      </div>
+      <!-- day3 -->
+      <div class="weather-fourcast-item">
+      <div class="week" id="day3">
+         <div class="day_name">day3</div>
+         <div class="image"><img src="https://cdn-icons-png.flaticon.com/128/869/869869.png" height="40px" alt=""></div>
+         <div class="text">
+            <h1> 32&#8451</h1>
+            
+         </div>
+        
+      </div>
+      </div>
+      <!-- day4 -->
+      <div class="weather-fourcast-item">
+      <div class="week" id="day4">
+         <div class="day_name">day4</div>
+         <div class="image"><img src="https://cdn-icons-png.flaticon.com/128/1163/1163657.png" height="40px" alt=""></div>
+         <div class="text">
+            <h1> 32&#8451</h1>
+           
+         </div>
+       
+      </div>
+      </div>
+      <!-- day5 -->
+      <div class="weather-fourcast-item">
+      <div class="week" id="day5">
+         <div class="day_name">day5</div>
+         <div class="image"><img src="https://cdn-icons-png.flaticon.com/128/766/766773.png" height="40px" alt=""></div>
+         <div class="text">
+            <h1> 32&#8451</h1>
+         
+         </div>
+       
+      </div>
+      </div>
+      <!-- day6 -->
+      <div class="weather-fourcast-item">
+      <div class="week" id="day6">
+         <div class="day_name">day6</div>
+         <div class="image"><img src="https://cdn-icons-png.flaticon.com/128/1146/1146858.png" height="40px" alt=""></div>
+         <div class="text">
+            <h1> 32&#8451</h1>
+            
+         </div>
+      
+      </div>
+      </div>
+      <!-- day7 -->
+      <div class="weather-fourcast-item">
+      <div class="week" id="day7">
+         <div class="day_name">day7</div>
+         <div class="image"><img src="https://cdn-icons-png.flaticon.com/128/4064/4064276.png" height="40px" alt=""></div>
+         <div class="text">
+            <h1> 32&#8451</h1>
+           
+         </div>
+        
+      </div>
+      </div>
+   </div>
+  
+   <script src="script.js"></script>
+</body>
+
+</html>
